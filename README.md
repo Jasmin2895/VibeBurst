@@ -71,15 +71,3 @@ Load the `build/chrome-mv3-dev` folder instead.
 - Tailwind CSS
 
 ---
-
-## Project Structure
-
-```
-src/
-├── popup.tsx          # Extension popup UI (React)
-├── content.tsx        # Content script (CSS injector + message handler)
-├── style.css          # Tailwind base styles
-└── lib/
-    ├── groq.ts        # Groq API client + prompt
-    └── styles.ts      # Style definitions + types
-```
